@@ -29,13 +29,14 @@ Recently, [Steinman et al. (2022)](https://www.pnas.org/doi/full/10.1073/pnas.21
 
 This Cookbook is broken down into three main sections. The first section performs the PCA analysis on the output of the CESM LME simulation. The second section performs the same analysis on paleoclimate observations. The last section compares the two analyses.
 
+### PCA analysis on proxy observations
+
+The section shows the query used to obtain relevant proxy datasets from a graphDB mirroring the LiPDverse data, filtering for records that cover at least 1500 of the last 2000 years with a resolution better than 60 years, and running PCA.
+
 ### PCA analysis on the CESM Last Millennium Analysis¶
 
 The section walks through fetching the data from JetStream2, calculating the precipitation d18O and running PCA. 
 
-### PCA analysis on proxy observations
-
-The section shows the query used to obtain relevant proxy datasets from a graphDB mirroring the LiPDverse data, filtering for records that cover at least 1500 of the last 2000 years with a resolution better than 60 years, and running PCA.
 
 ### Model Data Comparison
 

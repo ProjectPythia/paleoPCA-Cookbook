@@ -4,6 +4,6 @@ parts:
   - caption: Preamble
     chapters:
       - file: notebooks/how-to-cite
-  - caption: Introduction
+  - caption: Model-Data Comparison
     chapters:
-      - file: notebooks/notebook-template
+      - file: notebooks/paleoPCA

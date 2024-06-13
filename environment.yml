@@ -1,7 +1,20 @@
-name: cookbook-dev
+name: paleoPCA-Cookbook
 channels:
   - conda-forge
 dependencies:
   - jupyter-book
   - jupyterlab
   - sphinx-pythia-theme
+  - pip
+  - pandas
+  - xarray
+  - s3fs
+  - fsspec
+  - numpy
+  - cartopy
+  - matplotlib
+  - pip:
+    - pyleoclim
+    - eofs
+    - nc_time_axis
+

@@ -1,7 +1,7 @@
 <img src="thumbnail.png" alt="thumbnail" width="300"/>
 <img src="https://github.com/LinkedEarth/Logos/blob/master/LinkedEarth_medium.png?raw=true" alt="LinkedEarth Logo" width="500">
 
-# Investigating interhemispheric precipitation changes over the past millennium¶
+# Investigating interhemispheric precipitation changes over the past millennium
 
 [![nightly-build](https://github.com/ProjectPythia/paleoPCA-Cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/paleoPCA-Cookbook/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/paleoPCA-Cookbook/main?labpath=notebooks)

@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>(Replace_with_your_title) Cookbook &#8212; Project Pythia Cookbook Template</title>
+    <title>Investigating interhemispheric precipitation changes over the past millennium &#8212; Project Pythia Cookbook Template</title>
   
   
   
@@ -47,7 +47,7 @@
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="_static/copybutton.js?v=f281be69"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
@@ -80,7 +80,7 @@
     <link rel="next" title="How to Cite This Cookbook" href="notebooks/how-to-cite.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="11 June 2024"/>
+    <meta name="docbuild:last-update" content="14 June 2024"/>
   </head>
   
   
@@ -361,7 +361,7 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1 current active">
                 <a class="reference internal" href="#">
-                    (Replace_with_your_title) Cookbook
+                    Investigating interhemispheric precipitation changes over the past millennium
                 </a>
             </li>
         </ul>
@@ -369,9 +369,9 @@
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="notebooks/how-to-cite.html">How to Cite This Cookbook</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Model-Data Comparison</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="notebooks/notebook-template.html">Project Pythia Notebook Template</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/paleoPCA.html">Investigating interhemispheric precipitation changes over the past millennium</a></li>
 </ul>
 
     </div>
@@ -402,19 +402,21 @@
                   <article class="bd-article">
                     
   <a class="reference internal image-reference" href="_images/thumbnail.png"><img alt="thumbnail" src="_images/thumbnail.png" style="width: 300px;" /></a>
-<section class="tex2jax_ignore mathjax_ignore" id="replace-with-your-title-cookbook">
-<h1>(Replace_with_your_title) Cookbook<a class="headerlink" href="#replace-with-your-title-cookbook" title="Link to this heading"><i class="fas fa-link"></i></a></h1>
+<a class="reference internal image-reference" href="https://github.com/LinkedEarth/Logos/blob/master/LinkedEarth_medium.png?raw=true"><img alt="LinkedEarth Logo" src="https://github.com/LinkedEarth/Logos/blob/master/LinkedEarth_medium.png?raw=true" style="width: 500px;" /></a>
+<section class="tex2jax_ignore mathjax_ignore" id="investigating-interhemispheric-precipitation-changes-over-the-past-millennium">
+<h1>Investigating interhemispheric precipitation changes over the past millennium<a class="headerlink" href="#investigating-interhemispheric-precipitation-changes-over-the-past-millennium" title="Link to this heading"><i class="fas fa-link"></i></a></h1>
 <p><a class="reference external" href="https://github.com/ProjectPythia/paleoPCA-Cookbook/actions/workflows/nightly-build.yaml"><img alt="nightly-build" src="https://github.com/ProjectPythia/paleoPCA-Cookbook/actions/workflows/nightly-build.yaml/badge.svg" /></a>
 <a class="reference external" href="https://binder.projectpythia.org/v2/gh/ProjectPythia/paleoPCA-Cookbook/main?labpath=notebooks"><img alt="Binder" src="https://binder.projectpythia.org/badge_logo.svg" /></a>
 <a class="reference external" href="https://zenodo.org/badge/latestdoi/813352705"><img alt="DOI" src="https://zenodo.org/badge/813352705.svg" /></a></p>
-<p>This Project Pythia Cookbook covers … (replace <code class="docutils literal notranslate"><span class="pre">...</span></code> with the main subject of your cookbook … e.g., <em>working with radar data in Python</em>)</p>
+<p>This Project Pythia Cookbook covers paleoclimate model-data comparison using spatio-temporal pattern obtained using Principal Component Analysis (PCA).</p>
 <section id="motivation">
 <h2>Motivation<a class="headerlink" href="#motivation" title="Link to this heading"><i class="fas fa-link"></i></a></h2>
-<p>(Add a few sentences stating why this cookbook will be useful. What skills will you, “the chef”, gain once you have reached the end of the cookbook?)</p>
+<p>Paleoclimate observations obtained from tree rings or the geochemical composition of speleothems, ice and sediments provide an out-of-sample validation of climate models. However, comparing the output of climate models directly with the paleoclimate observations is difficult: (1) they are often expressed in different quantities (i.e., temperature vs ring width), (2) paleoclimate observations have large time uncertainties, (3) paleoclimate observations often incorporate more than one environmental signal (i.e., temperature AND moisture).</p>
+<p>Recently, <a class="reference external" href="https://doi.org/10.1073/pnas.2120015119">Steinman et al. (2022)</a> used PCA analysis to compare model and data output. Here, we use a similar approach with the <a class="reference external" href="https://www2.cesm.ucar.edu/models/cesm1.2/">CESM Last Millennium simulation</a> and proxy records stored on the <a class="reference external" href="https://lipdverse.org">LiPDverse</a>. This repository contains paleoclimate datasets that have been curated by the community and are archived in a standard format, facilitating analysis.</p>
 </section>
 <section id="authors">
 <h2>Authors<a class="headerlink" href="#authors" title="Link to this heading"><i class="fas fa-link"></i></a></h2>
-<p><a class="reference internal" href="#&#64;first-author"><span class="xref myst">First Author</span></a>, <a class="reference internal" href="#&#64;second-author"><span class="xref myst">Second Author</span></a>, etc. <em>Acknowledge primary content authors here</em></p>
+<p><a class="reference internal" href="#&#64;khider"><span class="xref myst">Deborah Khider</span></a>, <a class="reference internal" href="#&#64;sriharisundar"><span class="xref myst">Hari Sundar</span></a></p>
 <section id="contributors">
 <h3>Contributors<a class="headerlink" href="#contributors" title="Link to this heading"><i class="fas fa-link"></i></a></h3>
 <a href="https://github.com/ProjectPythia/paleoPCA-Cookbook/graphs/contributors">
@@ -424,14 +426,18 @@
 </section>
 <section id="structure">
 <h2>Structure<a class="headerlink" href="#structure" title="Link to this heading"><i class="fas fa-link"></i></a></h2>
-<p>(State one or more sections that will comprise the notebook. E.g., <em>This cookbook is broken up into two main sections - “Foundations” and “Example Workflows.”</em> Then, describe each section below.)</p>
-<section id="section-1-replace-with-the-title-of-this-section-e-g-foundations">
-<h3>Section 1 ( Replace with the title of this section, e.g. “Foundations” )<a class="headerlink" href="#section-1-replace-with-the-title-of-this-section-e-g-foundations" title="Link to this heading"><i class="fas fa-link"></i></a></h3>
-<p>(Add content for this section, e.g., “The foundational content includes … “)</p>
+<p>This Cookbook is broken down into three main sections. The first section performs the PCA analysis on the output of the CESM LME simulation. The second section performs the same analysis on paleoclimate observations. The last section compares the two analyses.</p>
+<section id="pca-analysis-on-proxy-observations">
+<h3>PCA analysis on proxy observations<a class="headerlink" href="#pca-analysis-on-proxy-observations" title="Link to this heading"><i class="fas fa-link"></i></a></h3>
+<p>The section shows the query used to obtain relevant proxy datasets from a graphDB mirroring the LiPDverse data, filtering for records that cover at least 1500 of the last 2000 years with a resolution better than 60 years, and running PCA.</p>
 </section>
-<section id="section-2-replace-with-the-title-of-this-section-e-g-example-workflows">
-<h3>Section 2 ( Replace with the title of this section, e.g. “Example workflows” )<a class="headerlink" href="#section-2-replace-with-the-title-of-this-section-e-g-example-workflows" title="Link to this heading"><i class="fas fa-link"></i></a></h3>
-<p>(Add content for this section, e.g., “Example workflows include … “)</p>
+<section id="pca-analysis-on-the-cesm-last-millennium-analysis">
+<h3>PCA analysis on the CESM Last Millennium Analysis¶<a class="headerlink" href="#pca-analysis-on-the-cesm-last-millennium-analysis" title="Link to this heading"><i class="fas fa-link"></i></a></h3>
+<p>The section walks through fetching the data from JetStream2, calculating the precipitation d18O and running PCA.</p>
+</section>
+<section id="model-data-comparison">
+<h3>Model Data Comparison<a class="headerlink" href="#model-data-comparison" title="Link to this heading"><i class="fas fa-link"></i></a></h3>
+<p>Visualizing the output of the PCA analyses.</p>
 </section>
 </section>
 <section id="running-the-notebooks">
@@ -457,21 +463,20 @@ Jupyter</a>.</p>
 <section id="running-on-your-own-machine">
 <h3>Running on Your Own Machine<a class="headerlink" href="#running-on-your-own-machine" title="Link to this heading"><i class="fas fa-link"></i></a></h3>
 <p>If you are interested in running this material locally on your computer, you will need to follow this workflow:</p>
-<p>(Replace “cookbook-example” with the title of your cookbooks)</p>
 <ol class="arabic">
-<li><p>Clone the <code class="docutils literal notranslate"><span class="pre">https://github.com/ProjectPythia/cookbook-example</span></code> repository:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="w"> </span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/ProjectPythia/cookbook-example.git
+<li><p>Clone the <code class="docutils literal notranslate"><span class="pre">https://github.com/ProjectPythia/paleoPCA-Cookbook</span></code> repository:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="w"> </span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/ProjectPythia/paleoPCA-Cookbook.git
 </pre></div>
 </div>
 </li>
-<li><p>Move into the <code class="docutils literal notranslate"><span class="pre">cookbook-example</span></code> directory</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>cookbook-example
+<li><p>Move into the <code class="docutils literal notranslate"><span class="pre">paleoPCA-Cookbook</span></code> directory</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>paleoPCA-Cookbook
 </pre></div>
 </div>
 </li>
 <li><p>Create and activate your conda environment from the <code class="docutils literal notranslate"><span class="pre">environment.yml</span></code> file</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>env<span class="w"> </span>create<span class="w"> </span>-f<span class="w"> </span>environment.yml
-conda<span class="w"> </span>activate<span class="w"> </span>cookbook-example
+conda<span class="w"> </span>activate<span class="w"> </span>paleoPCA-Cookbook
 </pre></div>
 </div>
 </li>
@@ -552,8 +557,9 @@ jupyter<span class="w"> </span>lab
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure">Structure</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#section-1-replace-with-the-title-of-this-section-e-g-foundations">Section 1 ( Replace with the title of this section, e.g. “Foundations” )</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#section-2-replace-with-the-title-of-this-section-e-g-example-workflows">Section 2 ( Replace with the title of this section, e.g. “Example workflows” )</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pca-analysis-on-proxy-observations">PCA analysis on proxy observations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pca-analysis-on-the-cesm-last-millennium-analysis">PCA analysis on the CESM Last Millennium Analysis¶</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#model-data-comparison">Model Data Comparison</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-the-notebooks">Running the Notebooks</a><ul class="nav section-nav flex-column">
@@ -575,9 +581,9 @@ jupyter<span class="w"> </span>lab
   
     <div class="header-article-items__start">
       
-        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
   <span class="fa-solid fa-bars"></span>
-</label></div>
+</button></div>
       
     </div>
   
@@ -735,9 +741,9 @@ document.write(`
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
-</label>
+</button>
 </div></div>
       
     </div>
@@ -772,7 +778,7 @@ By the <a href="https://projectpythia.org/">Project Pythia</a> Community
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on 11 June 2024.
+  Last updated on 14 June 2024.
   <br/>
 </p>
   </div>
@@ -826,7 +832,7 @@ By the <a href="https://projectpythia.org/">Project Pythia</a> Community
         
           By the <a href="https://projectpythia.org/">Project Pythia</a> Community.
         
-          Last updated on 11 June 2024.
+          Last updated on 14 June 2024.
         </p>
       </div>
     </div>

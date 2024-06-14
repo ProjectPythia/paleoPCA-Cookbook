@@ -13,7 +13,7 @@ This Project Pythia Cookbook covers paleoclimate model-data comparison using spa
 
 Paleoclimate observations obtained from tree rings or the geochemical composition of speleothems, ice and sediments provide an out-of-sample validation of climate models. However, comparing the output of climate models directly with the paleoclimate observations is difficult: (1) they are often expressed in different quantities (i.e., temperature vs ring width), (2) paleoclimate observations have large time uncertainties, (3) paleoclimate observations often incorporate more than one environmental signal (i.e., temperature AND moisture).
 
-Recently, [Steinman et al. (2022)](https://www.pnas.org/doi/full/10.1073/pnas.2120015119) used PCA analysis to compare model and data output. Here, we use a similar approach with the [CESM Last Millennium simulation](https://www2.cesm.ucar.edu/models/cesm1.2/) and proxy records stored on the [LiPDverse](https://lipdverse.org). This repository contains paleoclimate datasets that have been curated by the community and are archived in a standard format, facilitating analysis. 
+Recently, [Steinman et al. (2022)](https://doi.org/10.1073/pnas.2120015119) used PCA analysis to compare model and data output. Here, we use a similar approach with the [CESM Last Millennium simulation](https://www2.cesm.ucar.edu/models/cesm1.2/) and proxy records stored on the [LiPDverse](https://lipdverse.org). This repository contains paleoclimate datasets that have been curated by the community and are archived in a standard format, facilitating analysis. 
 
 ## Authors
 

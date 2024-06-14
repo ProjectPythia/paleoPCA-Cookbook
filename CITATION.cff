@@ -1,13 +1,13 @@
-cff-version: 0.0.1
+cff-version: 0.0.2
 message: "If you use this cookbook, please cite it as below."
 authors:
-  - family-names: "Khider"
-    given-names: "Deborah"
-    orcid: "https://orcid.org/0000-0001-7501-8430"
-    affiliation: "University of Southern California"
-  - family-names: "Sundar"
-    given-names: "Srihari"
-    orcid: " https://orcid.org/0000-0002-0556-3967"
-    affiliation: "National Renewable Energy Lab (NREL)"
+  - family-names: Khider
+    given-names: Deborah
+    orcid: https://orcid.org/0000-0001-7501-8430
+    affiliation: University of Southern California
+  - family-names: Sundar
+    given-names: Srihari
+    orcid: https://orcid.org/0000-0002-0556-3967
+    affiliation: National Renewable Energy Lab (NREL)
 title: "Investigating interhemispheric precipitation changes over the past millennium" 
 url: "https://projectpythia.org/paleoPCA-Cookbook/"

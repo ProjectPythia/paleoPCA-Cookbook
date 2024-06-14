@@ -8,8 +8,8 @@ copyright: "2024"
 
 execute:
   # To execute notebooks via a Binder instead, replace 'cache' with 'binder'
-  execute_notebooks: cache
-  timeout: 600
+  execute_notebooks: binder
+  timeout: 3600
   allow_errors: False # cells with expected failures must set the `raises-exception` cell tag
 
 # Add a few extensions to help with parsing content

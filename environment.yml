@@ -2,6 +2,7 @@ name: paleoPCA-Cookbook
 channels:
   - conda-forge
 dependencies:
+  - python<3.12  # hopefully temporary, to accommodate issues with Pythia binder
   - jupyter-book
   - jupyterlab
   - sphinx-pythia-theme

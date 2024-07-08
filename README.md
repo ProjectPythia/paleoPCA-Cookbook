@@ -17,7 +17,7 @@ Recently, [Steinman et al. (2022)](https://doi.org/10.1073/pnas.2120015119) used
 
 ## Authors
 
-[Deborah Khider](@khider), [Hari Sundar](@sriharisundar)
+[Deborah Khider](https://github.com/khider), [Hari Sundar](https://github.com/sriharisundar), [Varun Ratnakar](https://github.com/varunratnakar)
 
 ### Contributors
 

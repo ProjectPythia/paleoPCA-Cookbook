@@ -1,5 +1,5 @@
 <img src="thumbnail.png" alt="thumbnail" width="300"/>
-<img src="https://github.com/LinkedEarth/Logos/blob/master/LinkedEarth_medium.png?raw=true" alt="LinkedEarth Logo" width="500">
+<img src="https://github.com/LinkedEarth/Logos/blob/master/LinkedEarth/LinkedEarth_medium.png?raw=true" alt="LinkedEarth Logo" width="500">
 
 # Investigating interhemispheric precipitation changes over the past millennium
 

@@ -1,6 +1,9 @@
-thumbnail: thumbnail.png
+thumbnail: LinkedEarth.png
 tags:
   domains:
-    - sampledomain
+    - Paleoclimatology
+    - NSF JetStream2
   packages:
-    - samplepackage
+    - Pyleoclim
+    - xarray
+    - eofs

@@ -16,5 +16,6 @@ dependencies:
   - matplotlib
   - eofs
   - nc-time-axis
+  - h5netcdf
   - pip:
     - pyleoclim

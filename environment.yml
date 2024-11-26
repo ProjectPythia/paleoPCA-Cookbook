@@ -2,6 +2,7 @@ name: paleoPCA-Cookbook
 channels:
   - conda-forge
 dependencies:
+  - python<3.12
   - jupyter-book
   - jupyterlab
   - sphinx-pythia-theme
@@ -13,9 +14,8 @@ dependencies:
   - numpy
   - cartopy
   - matplotlib
+  - eofs
+  - nc-time-axis
   - h5netcdf
   - pip:
     - pyleoclim
-    - eofs
-    - nc_time_axis
-

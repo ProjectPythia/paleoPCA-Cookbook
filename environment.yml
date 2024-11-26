@@ -13,6 +13,7 @@ dependencies:
   - numpy
   - cartopy
   - matplotlib
+  - h5netcdf
   - pip:
     - pyleoclim
     - eofs

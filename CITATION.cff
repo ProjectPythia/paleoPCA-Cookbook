@@ -9,5 +9,9 @@ authors:
     given-names: Srihari
     orcid: https://orcid.org/0000-0002-0556-3967
     affiliation: National Renewable Energy Lab (NREL)
+  - family-names: Ratnakar
+    given-names: Varun
+    orcid: https://orcid.org/0000-0001-9381-705X
+    affiliation: University of Southern California
 title: "Investigating interhemispheric precipitation changes over the past millennium" 
 url: "https://projectpythia.org/paleoPCA-Cookbook/"

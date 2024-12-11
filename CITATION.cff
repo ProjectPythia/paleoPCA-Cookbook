@@ -15,3 +15,4 @@ authors:
     affiliation: University of Southern California
 title: "Investigating interhemispheric precipitation changes over the past millennium" 
 url: "https://projectpythia.org/paleoPCA-Cookbook/"
+abstract: "This cookbook covers paleoclimate model-data comparison using spatio-temporal pattern obtained using Principal Component Analysis (PCA)."
